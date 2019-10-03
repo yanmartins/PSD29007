@@ -27,12 +27,10 @@ h = hamming * 10^(-0.1/20);
 [Hw,w] = freqz(h, 1, 10000);
 
 
-vector = abs(Hw) > 10^(-Ap/20);
-aux = find(vector, 1, 'first');
+aux = find((abs(Hw) > 10^(-Ap/20)), 1);
 W_p_medido = w(aux)/pi
 
-vector2 = abs(Hw) > 10^(-As/20);
-aux = find(vector2, 1, 'first');
+aux = find((abs(Hw) > 10^(-As/20)), 1);
 W_stop_medido = w(aux)/pi
 
 
@@ -40,5 +38,4 @@ plot(w/pi,20*log10(abs(Hw))); grid on, hold on
 plot([0 ws/pi ws/pi 1], -[As As 0 0], '-m')
 plot([1 wp/pi wp/pi], -[Ap Ap 120], '-m')
 plot([wp/pi ws/pi], -[Ap As], 'Ok')
-plot(w/pi, vector*(-10))
 title(['Hamming N = ' num2str(ordem)])
