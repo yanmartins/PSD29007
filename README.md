@@ -26,3 +26,12 @@ Filtro de janela retangular.
 Tipos de janelas temporais usadas em projetos de filtros digitais. Retangular, Hamming, Hann e Blackman.
 
 - [janelas_temporais.m](https://github.com/yanmartins/PSD29007/blob/master/janelas_temporais.m)
+
+
+## OUTUBRO
+
+## 13/out/2019
+
+Projeto de um filtro passa alta utilizando janelas temporais.
+
+- [FPA_janela.m](https://github.com/yanmartins/PSD29007/blob/master/FPA_janela.m)
