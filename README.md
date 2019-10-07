@@ -40,5 +40,5 @@ Projeto de um filtro passa alta utilizando janelas temporais.
 
 Projeto de um filtro passa faixa utilizando janela temporal de Kaiser.
 
-- [FPF_janela_kaiser.m](https://github.com/yanmartins/PSD29007/blob/master/(https://github.com/yanmartins/PSD29007/blob/master/FPA_janela.m)
-- [FPF_janela_kaiser_vProf.m](https://github.com/yanmartins/PSD29007/blob/master/(https://github.com/yanmartins/PSD29007/blob/master/FPF_janela_kaiser_vProf.m)	Versão do Professor
+- [FPF_janela_kaiser.m](https://github.com/yanmartins/PSD29007/blob/master/FPA_janela.m)
+- [FPF_janela_kaiser_vProf.m](https://github.com/yanmartins/PSD29007/blob/master/FPF_janela_kaiser_vProf.m)	Versão do Professor

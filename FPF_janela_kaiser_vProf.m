@@ -37,3 +37,7 @@ plot(w/pi, 20*log10(abs(Hw)))
 fmask = [0 0.1 0.1 0.4 0.4 1 1 0.2 0.2 0.3 0.3];
 Amask = -[As As 0 0 As As 100 100 Ap Ap 100];
 hold on; plot(fmask, Amask,':m'); hold off; ylim([-(As +30) 5]); grid on
+
+% APLICANDO FILTRO A UM SINAL REAL
+
+fs 
