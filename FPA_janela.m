@@ -26,16 +26,15 @@ h = hamming * 10^(-0.1/20);
 
 [Hw,w] = freqz(h, 1, 10000);
 
-
+% Encontrando os pontos onde o filtro ultrapassa o limiar da máscara
 aux = find((abs(Hw) > 10^(-Ap/20)), 1);
 W_p_medido = w(aux)/pi
 
 aux = find((abs(Hw) > 10^(-As/20)), 1);
 W_stop_medido = w(aux)/pi
 
-
 plot(w/pi,20*log10(abs(Hw))); grid on, hold on
-plot([0 ws/pi ws/pi 1], -[As As 0 0], '-m')
-plot([1 wp/pi wp/pi], -[Ap Ap 120], '-m')
+plot([0 ws/pi ws/pi 1], -[As As 0 0], '-r')
+plot([1 wp/pi wp/pi], -[Ap Ap 120], '-r')
 plot([wp/pi ws/pi], -[Ap As], 'Ok')
 title(['Hamming N = ' num2str(ordem)])
