@@ -40,4 +40,5 @@ hold on; plot(fmask, Amask,':m'); hold off; ylim([-(As +30) 5]); grid on
 
 % APLICANDO FILTRO A UM SINAL REAL
 
-fs 
+fa = 44100;
+fs1 = 
