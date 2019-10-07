@@ -9,7 +9,7 @@ wp = 0.3*pi;
 ws = 0.2*pi;
 wc = sqrt(ws*wp);
 
-ordem_calc = ceil((3.32*pi)/abs(wp-ws));
+ordem_calc = ceil((3.32*pi)/abs(wp-ws)); % Deve ser um número inteiro e par
 ordem = 40;
 M = ordem/2;
 n = -M:M;
