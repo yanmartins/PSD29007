@@ -30,8 +30,15 @@ Tipos de janelas temporais usadas em projetos de filtros digitais. Retangular, H
 
 ## OUTUBRO
 
-## 13/out/2019
+## 03/out/2019
 
 Projeto de um filtro passa alta utilizando janelas temporais.
 
 - [FPA_janela.m](https://github.com/yanmartins/PSD29007/blob/master/FPA_janela.m)
+
+## 07/out/2019
+
+Projeto de um filtro passa faixa utilizando janela temporal de Kaiser.
+
+- [FPF_janela_kaiser.m](https://github.com/yanmartins/PSD29007/blob/master/(https://github.com/yanmartins/PSD29007/blob/master/FPA_janela.m)
+- [FPF_janela_kaiser_vProf.m](https://github.com/yanmartins/PSD29007/blob/master/(https://github.com/yanmartins/PSD29007/blob/master/FPF_janela_kaiser_vProf.m)	Versão do Professor
