@@ -48,4 +48,9 @@ Projeto de um filtro passa faixa utilizando janela temporal de Kaiser.
 - [fir_ajustes](https://github.com/yanmartins/PSD29007/blob/master/fir_ajustes.m)
 - [Filtros_Parks_McClellan.m](https://github.com/yanmartins/PSD29007/blob/master/Filtros_Parks_McClellan.m)
 
+## 21/out/2019
+
+Filtros com o Simulink e FDA Tools. Diferenças de visualização entre Time Scope e Analisador de espectro. Utilizando concatenação de matrizes ao invés de um mux.
+
+- [Simulink_filtrosFIR](https://github.com/yanmartins/PSD29007/blob/master/Simulink_filtrosFIR)
 
