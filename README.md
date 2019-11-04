@@ -54,3 +54,8 @@ Filtros com o Simulink e FDA Tools. Diferenças de visualização entre Time Sco
 
 - [Simulink_filtrosFIR](https://github.com/yanmartins/PSD29007/blob/master/Simulink_filtrosFIR)
 
+## NOVEMBRO
+
+## 04/nov/2019
+
+- valores_simulink.m
