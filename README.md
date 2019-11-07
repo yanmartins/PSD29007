@@ -58,4 +58,8 @@ Filtros com o Simulink e FDA Tools. Diferenças de visualização entre Time Sco
 
 ## 04/nov/2019
 
-- valores_simulink.m
+Realizando análises do espectro.
+
+- [valores_simulink.m](https://github.com/yanmartins/PSD29007/blob/master/valores_simulink)	Valores para serem carregados no Simulink
+- [filtrosFIR.fda](https://github.com/yanmartins/PSD29007/blob/master/Simulink_filtrosFIR/filtrosFIR.fda)		Filtros gerados no FDATool
+- [analisando_espectro.slx](https://github.com/yanmartins/PSD29007/blob/master/Simulink_filtrosFIR/analisando_espectro.slx)	Projeto Simulink
