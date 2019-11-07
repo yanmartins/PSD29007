@@ -63,3 +63,9 @@ Realizando análises do espectro.
 - [valores_simulink.m](https://github.com/yanmartins/PSD29007/blob/master/valores_simulink)	Valores para serem carregados no Simulink
 - [filtrosFIR.fda](https://github.com/yanmartins/PSD29007/blob/master/Simulink_filtrosFIR/filtrosFIR.fda)		Filtros gerados no FDATool
 - [analisando_espectro.slx](https://github.com/yanmartins/PSD29007/blob/master/Simulink_filtrosFIR/analisando_espectro.slx)	Projeto Simulink
+
+## 07/nov/2019
+
+Durante a simulação utiliza-se frame based, pois é mais rápido. Porém, ao transferí-lo para o HDL deve-se utilizar sample based (para a versão 2015 do Matlab).
+
+Para configurar o Simulink para sistemas discretos execute o comando dspstartup.m antes de abrir um novo modelo.
