@@ -52,7 +52,8 @@ Projeto de um filtro passa faixa utilizando janela temporal de Kaiser.
 
 Filtros com o Simulink e FDA Tools. Diferenças de visualização entre Time Scope e Analisador de espectro. Utilizando concatenação de matrizes ao invés de um mux.
 
-- [Simulink_filtrosFIR](https://github.com/yanmartins/PSD29007/blob/master/Simulink_filtrosFIR)
+- [filtrosFIR.fda](https://github.com/yanmartins/PSD29007/blob/master/Simulink_filtrosFIR/filtrosFIR.fda)		Filtros gerados no FDATool
+- [filtrosFIR.slx](https://github.com/yanmartins/PSD29007/blob/master/Simulink_filtrosFIR/filtrosFIR.slx)	Projeto Simulink
 
 ## NOVEMBRO
 
@@ -69,3 +70,9 @@ Realizando análises do espectro.
 Durante a simulação utiliza-se frame based, pois é mais rápido. Porém, ao transferí-lo para o HDL deve-se utilizar sample based (para a versão 2015 do Matlab).
 
 Para configurar o Simulink para sistemas discretos execute o comando dspstartup.m antes de abrir um novo modelo.
+
+## 11/nov/2019
+
+Realização de filtros IIR.
+
+- realizacoes_iir.fda
